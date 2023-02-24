@@ -3389,6 +3389,8 @@ And return these results:
 * First example: `2`
 * Second example `3`
 
+Note: due to binary floating point limitations, the results of the multiplication might return approximated numbers. Example: mul(100,313.96) returns 31395.999999999996.
+
 <a name="multipartBody"></a>
 
 ### multipartBody
